@@ -1,0 +1,97 @@
+{
+  "policy": {
+    "DEFAULT": {
+      "capabilities": [
+        "frame",
+        "fetch",
+        "noscript",
+        "other"
+      ],
+      "temp": false
+    },
+    "TRUSTED": {
+      "capabilities": [
+        "script",
+        "object",
+        "media",
+        "frame",
+        "font",
+        "webgl",
+        "fetch",
+        "ping",
+        "noscript",
+        "unchecked_css",
+        "other",
+        "lan"
+      ],
+      "temp": false
+    },
+    "UNTRUSTED": {
+      "capabilities": [],
+      "temp": false
+    },
+    "sites": {
+      "trusted": [
+        "§:hcaptcha.com",
+        "§:protondb.com",
+        "§:github.com",
+        "§:githubassets.com",
+        "§:askubuntu.com",
+        "§:stackoverflow.com",
+        "§:gitlab.com",
+        "§:youtube.com",
+        "§:duckduckgo.com",
+        "§:siftscience.com",
+        "§:githubapp.com",
+        "§:steamcommunity.com",
+        "§:steamstatic.com",
+        "§:gog.com",
+        "§:gog-statics.com",
+        "§:epicgames.com",
+        "§:unrealengine.com",
+        "§:cloudflare.com",
+        "§:refold.la",
+        "§:taskwarrior.org",
+        "§:ankiweb.net",
+        "§:bootstrapcdn.com",
+        "§:gitlab.freedesktop.org",
+        "§:steampowered.com",
+        "§:lutris.net",
+        "§:gentoo.org",
+        "§:archlinux.org",
+        "§:ajax.googleapis.com",
+        "§:stackexchange.com",
+        "§:recaptcha.net",
+        "§:googlevideo.com"
+      ],
+      "untrusted": [
+        "google-analytics.com",
+        "facebook.net",
+        "doubleclick.net",
+        "googletagmanager.com",
+        "googlesyndication.com"
+      ],
+      "custom": {}
+    },
+    "enforced": true,
+    "autoAllowTop": false
+  },
+  "local": {
+    "debug": false,
+    "showCtxMenuItem": true,
+    "showCountBadge": true,
+    "showFullAddresses": false,
+    "amnesticUpdates": false,
+    "storage": "local",
+    "uuid": "55496b56-35de-4a31-8595-d19ca02bfcb2"
+  },
+  "sync": {
+    "global": false,
+    "xss": true,
+    "cascadeRestrictions": false,
+    "overrideTorBrowserPolicy": false,
+    "clearclick": true,
+    "storage": "sync"
+  },
+  "xssUserChoices": {}
+}

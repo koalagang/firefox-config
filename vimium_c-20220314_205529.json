@@ -1,0 +1,42 @@
+{
+	"name": "Vimium C",
+	"@time": "3/14/2022, 8:55:29 PM",
+	"time": 1647291329600,
+	"environment": {
+		"extension": "1.96.6",
+		"platform": "linux",
+		"firefox": 91
+	},
+	"exclusionRules": [],
+	"ignoreCapsLock": 2,
+	"keyMappings": [
+		"#!no-check",
+		"# the shortcut for noscript is 'alt+shift+n'",
+		"# so I had to change this so they don't clash",
+		"unmap n",
+		"unmap N",
+		"map m performFind",
+		"map M performBackwardsFind",
+		""
+	],
+	"linkHintCharacters": "asdghjkl",
+	"searchEngines": [
+		"@d: https://duckduckgo.com/?q=%s",
+		"@x: https://searx.be/search?t=ffab&q=%&ia=web",
+		"@s: https://www.startpage.com/sp/search?query=%s&cat=web&pl=opensearch&language=english",
+		"@g: https://github.com/search?q=%s&ref=opensearch",
+		"@a: https://www.amazon.com/s/130-9459463-7787426?ie=UTF8&field-keywords=%s&index=blended&link_code=qs&sourceid=Mozilla-search&tag=moz-us-20",
+		"@e: https://www.ebay.com/sch/i.html?campid=5338192028&kw=%s&mkcid=1&mkrid=711-53200-19255-0&toolid=20004",
+		"@w: https://en.wikipedia.org/w/index.php?search=%s&title=Special%3ASearch&fulltext=Search&ns0=1",
+		"js\\:|Js: javascript:\\ $S; JavaScript",
+		""
+	],
+	"searchUrl": "https://duckduckgo.com/?q=$s",
+	"vomnibarOptions": {
+		"maxMatches": 10,
+		"queryInterval": 333,
+		"sizes": "77,3,44,0.8",
+		"styles": "dark",
+		"actions": ""
+	}
+}
